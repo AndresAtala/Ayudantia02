@@ -6,6 +6,6 @@ public class EmpleadoAsalariado extends Empleado {
 
 	@Override
 	public float calcularSalario() {
-		return salarioBase;
+		return getSalarioBase();
 	}
 }
