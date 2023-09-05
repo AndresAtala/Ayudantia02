@@ -4,7 +4,7 @@ public class EmpleadoPorHoras extends Empleado {
 	private int horasTrabajadas;
 
 	public EmpleadoPorHoras(String nombre, float salarioPorHora, int horasTrabajadas) {
-		super(nombre, 0); // Llamamos al constructor de Empleado con salarioBase = 0
+		super(nombre, 0);
 		this.salarioPorHora = salarioPorHora;
 		this.horasTrabajadas = horasTrabajadas;
 	}
